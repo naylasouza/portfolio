@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Monitora",
+        "company": "{Reprograma}",
+        "description": "Auxílio como monitora nas aulas de CSS e HTML do curso de Front-End do bootcamp da {Reprograma}, patrocinado pela Accenture.",
+        "date": "08/20 - Atual",
+        "position": "left"
+    },
+    {
+        "title": "Desenvolvedora Front-end voluntária",
+        "company": "Tech4 Covid19",
+        "description": "Desenvolvemos projetos que utilizam a tecnologia para combater os impactos gerados pelo coronavírus no Brasil.",
+        "date": "05/2020 - 05/2020",
+        "position": "right"
+    },
+    {
+        "title": "Desenvolvedora Front-end",
+        "company": "Cozinha da Rê",
+        "description": "Desenvolver um site responsivo para o ramo alimentício criado do zero. Tecnologias utilizadas no projeto: Figma, HTML, CSS, Javascript, Bootstrap e JQuery.",
+        "date": "06/2018 - 11/2018",
+        "position": "left"
+    },
+    {
+        "title": "Social media - auxiliar",
+        "company": "Marco Zero",
+        "description": "Responsável por toda parte de planejamento, criação de conteúdo, parcerias, monitoramento de rede sociais, desenvolvimento de campanhas com conteúdo orgânico e pago.",
+        "date": "07/2020 - 08/2020",
+        "position": "right"
+    }
+]

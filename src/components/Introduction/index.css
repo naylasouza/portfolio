@@ -1,0 +1,30 @@
+.introduction {
+    padding: 8%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-text {
+    flex: 1;
+    max-width: 60%;
+    text-align: left;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.intro-image {
+    display: flex;
+    margin-right: 84px; 
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
