@@ -1,0 +1,91 @@
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 70px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .skills-content {
+    max-width: 600px;
+  }
+  
+  .skills-content h2 {
+    font-size: 57px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .skills-content h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #555; 
+    margin-top: 7px;
+  }
+  
+  .quotes {
+    margin-top: 58px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-item {
+    text-align: left;
+    margin-bottom: 54px;
+  }
+  
+  .quote-text {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 0;
+    color: #666; 
+    display: inline;
+  }
+  
+  .quote-author {
+    font-size: 16px;
+    color: #999;
+    display: inline;
+  }
+  
+  .ver-mais-link {
+    color: #0077b5;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .ver-mais-link:hover {
+    text-decoration: underline;
+  }
+  
+  .linkedin-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0077b5;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #0077b5;
+    cursor: pointer;
+  }
+  
+  .linkedin-link:hover {
+    background-color: #005582;
+    border-color: #005582;
+  }
+  
+  .skills-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -33px;
+  }
+  
+  .skills-images img {
+    width: 600px;
+    margin-top: 68px;
+    height: auto;
+  }
+  
