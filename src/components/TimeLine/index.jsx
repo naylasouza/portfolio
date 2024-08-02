@@ -1,5 +1,4 @@
-import React from 'react';
-import { Fade } from 'react-reveal';
+import React, { useEffect } from 'react';
 import './index.css';
 
 const experiences = [
@@ -27,6 +26,22 @@ const experiences = [
 ];
 
 const Timeline = () => {
+    useEffect(() => {
+        const timelineItems = document.querySelectorAll('.timeline-item');
+        const handleScroll = () => {
+            timelineItems.forEach((item, index) => {
+                const rect = item.getBoundingClientRect();
+                if (rect.top < window.innerHeight) {
+                    item.style.transitionDelay = `${index * 0.5}s`;
+                    item.classList.add('in-view');
+                }
+            });
+        };
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
         <section className="experience-container">
             <div className="container">
@@ -34,18 +49,16 @@ const Timeline = () => {
                 <div className="timeline">
                     <ul>
                         {experiences.map((experience, index) => (
-                            <Fade key={index} bottom delay={index * 500}>
-                                <li className={`timeline-item ${experience.position}`}>
-                                    <div className="content">
-                                        <h3>{experience.title}</h3>
-                                        <h4>{experience.company}</h4>
-                                        <p>{experience.description}</p>
-                                    </div>
-                                    <div className={`time ${index === 0 ? 'first' : ''}`}>
-                                        {experience.date}
-                                    </div>
-                                </li>
-                            </Fade>
+                            <li key={index} className={`timeline-item ${experience.position}`}>
+                                <div className="content">
+                                    <h3>{experience.title}</h3>
+                                    <h4>{experience.company}</h4>
+                                    <p>{experience.description}</p>
+                                </div>
+                                <div className={`time ${index === 0 ? 'first' : ''}`}>
+                                    {experience.date}
+                                </div>
+                            </li>
                         ))}
                         <div style={{ clear: 'both' }}></div>
                     </ul>
