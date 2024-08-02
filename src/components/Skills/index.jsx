@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css'; 
-import batataImage from '../../imagens/batata.png'; 
+import Intro from '../../imagens/intro.png'; 
 
 const SkillsComponent = () => {
   const quotes = [
@@ -32,14 +32,14 @@ const SkillsComponent = () => {
             <div className="quote-item" key={index}>
               <p className="quote-text">"{truncateText(quote.text, quote.isLong)}"<br/> - <span className="quote-author">{quote.author}</span></p>
               {quote.isLong && (
-                <a href="https://www.linkedin.com/in/seu-perfil" target="_blank" className="ver-mais-link" rel="noreferrer">Ver mais</a>
+                <a href="https://www.linkedin.com/in/naylasouzaribeiro/" target="_blank" className="ver-mais-link" rel="noreferrer">Ver mais</a>
               )}
             </div>
           ))}
         </div>
       </div>
       <div className="skills-images">
-        <img src={batataImage} alt="Imagem" />
+        <img src={Intro} alt="Imagem" />
       </div>
     </div>
   );
