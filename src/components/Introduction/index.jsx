@@ -16,7 +16,7 @@ const Introduction = () => {
                        desenvolver telas é minha paixão.<br /><br />
                         Estou no último semestre de Sistemas para Internet na FIAP. No primeiro ano do curso, minha equipe e eu ganhamos o prêmio Next da FIAP, um dos concursos mais concorridos, com empresas renomadas participando.
                     </p><br />
-                    <a href="mailto:naylasouzariibeiro@gmail.com" target="_blank" className="ver-mais-link">Entrar em contato</a>
+                    <a href="mailto:naylasouzariibeiro@gmail.com" className="ver-mais-link">Entrar em contato</a>
                 </div>
             </Fade>
         </section>
