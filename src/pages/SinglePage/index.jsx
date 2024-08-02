@@ -2,8 +2,8 @@ import React from 'react';
 import Header from '../../components/Header';
 import Banner from '../../components/Banner';
 import Introduction from '../../components/Introduction';
-import ProductCategories from '../../components/ProductCategories';
 import Timeline from '../../components/TimeLine';
+import Skills from "../../components/Skills"
 import './style.css';
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
             <Header />
             <Banner />
             <Introduction />
-            <ProductCategories />
+            <Skills />
             <Timeline />
         </div>
     );

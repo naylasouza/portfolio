@@ -7,8 +7,10 @@ const Header = () => {
             <div className="header-left">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Experiências</a></li>
+
                 </ul>
             </div>
         </header>
